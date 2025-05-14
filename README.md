@@ -70,20 +70,9 @@ This project demonstrates how to integrate the Gemini API into a Python applicat
     GOOGLE_API_KEY=YOUR_API_KEY
     ```
 
-    And then load it in the Python script:
-
-    ```python
-    import os
-    from dotenv import load_dotenv
-
-    load_dotenv()
-
-    api_key = os.getenv("GOOGLE_API_KEY")
-    ```
-
 2.  **Run the bot:**
     ```bash
-    python main.py  # Or the name of the main script
+    npm start
     ```
 
     The bot should start running and you can interact with it through the command line.
