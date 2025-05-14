@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeminiBot</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1>GeminiBot</h1>
+    <form action="/gemini" method="POST" id="form">
+        <textarea id="userInput"
+            name="userInput"
+            cols="33" rows="7"
+            placeholder="Enter your prompt here..."></textarea>
+        <button type="submit" id="sendButton">Send to Gemini!</button>
+        <div id="loadingIndicator">Thinking... Please wait...</div>
+    </form>
+    <div id="error-message"></div> <!-- Dedicated error message area -->
+    <div id="responseContainer"></div>
+</body>
+</html>
